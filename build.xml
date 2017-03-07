@@ -53,8 +53,9 @@
         <java classname="br.com.main.Main" failonerror="true" fork="yes">
             <classpath refid="TesteJenkinsBuild.classpath"/>
         </java>
-    	<mkdir dir="target/"/>
-    	<jar destfile="target/buildJavaGitHub.jar" basedir="target/"/>
+    	<mkdir dir="target/classes/"/>
+    	<mkdir dir="target/classes-test/"/>
+    	<jar destfile="target/buildJavaGitHub.jar" basedir="target/classes/"/>
     </target>
               
               	
