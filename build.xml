@@ -53,7 +53,10 @@
         <java classname="br.com.main.Main" failonerror="true" fork="yes">
             <classpath refid="TesteJenkinsBuild.classpath"/>
         </java>
+    	<jar destfile="target/jenkins-exemplo.jar" basedir="target/classes/"/>
     </target>
+              
+              	
     <target name="Model1Test (1)">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
