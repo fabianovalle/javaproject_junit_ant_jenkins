@@ -55,7 +55,7 @@
         </java>
     	<mkdir dir="target/classes/"/>
     	<mkdir dir="target/classes-test/"/>
-    	<jar destfile="target/jenkins-exemplo.jar" basedir="target/classes/"/>
+    	<jar destfile="target/buildJavaGitHub.jar" basedir="target/classes/"/>
     </target>
               
               	
